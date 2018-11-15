@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[CustomConnectionStorageService.cs](./CS/T119350/CustomConnectionStorageService.cs) (VB: [CustomConnectionStorageService.vb](./VB/T119350/CustomConnectionStorageService.vb))**
+* [CustomSqlDataConnection.cs](./CS/T119350/CustomSqlDataConnection.cs) (VB: [CustomSqlDataConnection.vb](./VB/T119350/CustomSqlDataConnection.vb))
+* [fmDesigner.cs](./CS/T119350/fmDesigner.cs) (VB: [fmDesigner.vb](./VB/T119350/fmDesigner.vb))
+<!-- default file list end -->
 # WinForms End-User Designer - How to customize the data source wizard connection string storage
 
 
