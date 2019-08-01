@@ -63,7 +63,7 @@ namespace T119350 {
                                 root.Name, xmlRootName));
                             return;
                         }
-                        if (root.SelectSingleNode(string.Format("Connection[Name = '{0}']", connection.Name)) != null)
+                        if (root.SelectSingleNode(string.Format("Connection[Name = '{0}']", connectionName)) != null)
                             return;
                     }
                 }

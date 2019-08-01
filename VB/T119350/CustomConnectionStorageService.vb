@@ -60,7 +60,7 @@ Namespace T119350
 							MessageBox.Show(String.Format("Document element is '{0}', '{1}' expected", root.Name, xmlRootName))
 							Return
 						End If
-						If root.SelectSingleNode(String.Format("Connection[Name = '{0}']", connection.Name)) IsNot Nothing Then
+						If root.SelectSingleNode(String.Format("Connection[Name = '{0}']", connectionName)) IsNot Nothing Then
 							Return
 						End If
 					End If
