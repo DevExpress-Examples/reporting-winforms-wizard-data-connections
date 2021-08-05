@@ -1,19 +1,25 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "T119350", "T119350\T119350.vbproj", "{36E2A958-1CEA-47FA-BE65-2B0233FD7EC2}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "T119350", "T119350\T119350.vbproj", "{A5D12828-8D90-42DD-8B10-BD7334BEE678}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36E2A958-1CEA-47FA-BE65-2B0233FD7EC2}.Debug|x86.ActiveCfg = Debug|x86
-		{36E2A958-1CEA-47FA-BE65-2B0233FD7EC2}.Debug|x86.Build.0 = Debug|x86
-		{36E2A958-1CEA-47FA-BE65-2B0233FD7EC2}.Release|x86.ActiveCfg = Release|x86
-		{36E2A958-1CEA-47FA-BE65-2B0233FD7EC2}.Release|x86.Build.0 = Release|x86
+		{A5D12828-8D90-42DD-8B10-BD7334BEE678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D12828-8D90-42DD-8B10-BD7334BEE678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D12828-8D90-42DD-8B10-BD7334BEE678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D12828-8D90-42DD-8B10-BD7334BEE678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C6E0A04-0B9A-46E8-88DD-5E1C7E8D2357}
 	EndGlobalSection
 EndGlobal

@@ -3,15 +3,15 @@
 
 * **[CustomConnectionStorageService.cs](./CS/T119350/CustomConnectionStorageService.cs) (VB: [CustomConnectionStorageService.vb](./VB/T119350/CustomConnectionStorageService.vb))**
 * [CustomSqlDataConnection.cs](./CS/T119350/CustomSqlDataConnection.cs) (VB: [CustomSqlDataConnection.vb](./VB/T119350/CustomSqlDataConnection.vb))
-* [fmDesigner.cs](./CS/T119350/fmDesigner.cs) (VB: [fmDesigner.vb](./VB/T119350/fmDesigner.vb))
+* [Form1.cs](./CS/T119350/Form1.cs) (VB: [Form1.vb](./VB/T119350/Form1.vb))
 <!-- default file list end -->
-# WinForms End-User Designer - How to customize the data source wizard connection string storage
 
+# WinForms End-User Report Designer  - How to Store Connections Available in the Data Source Wizard
 
-<p>By default, the report connections list is populated based on the connections stored in the application configuration file. In any case, the application configuration cannot be modified at runtime, that's why the report connections list is not changed when the End-User Report Designer is used.</p>
-<p>To initialize, save and restore the connection strings in the End-User Report Designer, use the approach demonstrated in this code example.<br><br>The main idea of this approach is to create a custom connection storage service implementing <a href="https://documentation.devexpress.com/#CoreLibraries/clsDevExpressDataAccessWizardServicesIConnectionStorageServicetopic">IConnectionStorageService</a> interface. Also, the <a href="https://documentation.devexpress.com/#CoreLibraries/clsDevExpressDataAccessSqlSqlDataConnectiontopic">SqlDataConnection</a> class descendant (<strong>CustomSqlDataConnection</strong>) is used in this example to customize the connection names in the connections list.<br><br></p>
-<p><strong>Important</strong>: In this example, the connection string is not encrypted and is stored openly in an XML file, exposing potentially sensitive information (such as a password to connect to a database). Please take this issue into account when translating this implementation to a real-world business application (e.g., you may be required to use the <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressDataAccessSqlSqlDataConnection_BlackoutCredentialstopic">SqlDataConnection.BlackoutCredentials</a> method to avoid saving the user credentials to the configuration file).</p>
+When a user adds a new data source, the list of available connections in the Data Source Wizard is populated with connections defined in the application configuration file. This example demonstrates how to use a custom storage (a `connectons.xml`) file to load and save Data Source Wizard connections. For this,  implement the [IConnectionStorageService](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Wizard.Services.IConnectionStorageService) and register it in the Report Designer component. 
 
-<br/>
+The `CustomSqlDataConnection` class (the [SqlDataConnection](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Sql.SqlDataConnection) descendant) in this example holds the names displayed in the connection list.
+
+<strong>Important</strong>: In this example, the connection string in the XML file is not encrypted and exposes sensitive information (a username and a password). You should protect the file storage to prevent unauthorized access in a real-world application. 
 
 
