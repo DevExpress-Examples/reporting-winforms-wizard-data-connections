@@ -1,5 +1,7 @@
-﻿Namespace T119350
-    Partial Public Class fmDesigner
+Namespace T119350
+
+    Partial Class fmDesigner
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,32 +12,32 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+'#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
-            Dim barInfo1 As New DevExpress.XtraReports.UserDesigner.BarInfo()
-            Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(fmDesigner))
-            Dim recentlyUsedItemsComboBox1 As New DevExpress.XtraReports.UserDesigner.RecentlyUsedItemsComboBox()
-            Dim designRepositoryItemComboBox1 As New DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox()
-            Dim designRepositoryItemComboBox2 As New DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox()
-            Dim xrDesignPanelListener1 As New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
-            Dim xrDesignPanelListener2 As New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
-            Dim xrDesignPanelListener3 As New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
-            Dim xrDesignPanelListener4 As New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
-            Dim xrDesignPanelListener5 As New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
-            Dim xrDesignPanelListener6 As New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
-            Dim xrDesignPanelListener7 As New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
+            Dim barInfo1 As DevExpress.XtraReports.UserDesigner.BarInfo = New DevExpress.XtraReports.UserDesigner.BarInfo()
+            Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(T119350.fmDesigner))
+            Dim recentlyUsedItemsComboBox1 As DevExpress.XtraReports.UserDesigner.RecentlyUsedItemsComboBox = New DevExpress.XtraReports.UserDesigner.RecentlyUsedItemsComboBox()
+            Dim designRepositoryItemComboBox1 As DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox = New DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox()
+            Dim designRepositoryItemComboBox2 As DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox = New DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox()
+            Dim xrDesignPanelListener1 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
+            Dim xrDesignPanelListener2 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
+            Dim xrDesignPanelListener3 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
+            Dim xrDesignPanelListener4 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
+            Dim xrDesignPanelListener5 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
+            Dim xrDesignPanelListener6 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
+            Dim xrDesignPanelListener7 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
             Me.bar2 = New DevExpress.XtraBars.Bar()
             Me.xrDesignBarManager1 = New DevExpress.XtraReports.UserDesigner.XRDesignBarManager(Me.components)
             Me.designBar1 = New DevExpress.XtraReports.UserDesigner.DesignBar()
@@ -139,11 +141,11 @@
             Me.errorListDockPanel1 = New DevExpress.XtraReports.UserDesigner.ErrorListDockPanel()
             Me.errorListDockPanel1_Container = New DevExpress.XtraReports.UserDesigner.DesignControlContainer()
             Me.reportDesignerMDIController = New DevExpress.XtraReports.UserDesigner.XRDesignMdiController(Me.components)
-            DirectCast(Me.xrDesignBarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(recentlyUsedItemsComboBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(designRepositoryItemComboBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(designRepositoryItemComboBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.xrDesignDockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.xrDesignBarManager1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((recentlyUsedItemsComboBox1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((designRepositoryItemComboBox1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((designRepositoryItemComboBox2), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.xrDesignDockManager1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.panelContainer1.SuspendLayout()
             Me.panelContainer2.SuspendLayout()
             Me.reportExplorerDockPanel1.SuspendLayout()
@@ -167,8 +169,8 @@
             ' 
             barInfo1.Bar = Me.bar2
             barInfo1.ToolboxType = DevExpress.XtraReports.UserDesigner.ToolboxType.Standard
-            Me.xrDesignBarManager1.BarInfos.AddRange(New DevExpress.XtraReports.UserDesigner.BarInfo() { barInfo1})
-            Me.xrDesignBarManager1.Bars.AddRange(New DevExpress.XtraBars.Bar() { Me.designBar1, Me.designBar2, Me.designBar3, Me.designBar4, Me.designBar5, Me.bar1, Me.bar2})
+            Me.xrDesignBarManager1.BarInfos.AddRange(New DevExpress.XtraReports.UserDesigner.BarInfo() {barInfo1})
+            Me.xrDesignBarManager1.Bars.AddRange(New DevExpress.XtraBars.Bar() {Me.designBar1, Me.designBar2, Me.designBar3, Me.designBar4, Me.designBar5, Me.bar1, Me.bar2})
             Me.xrDesignBarManager1.DockControls.Add(Me.barDockControlTop)
             Me.xrDesignBarManager1.DockControls.Add(Me.barDockControlBottom)
             Me.xrDesignBarManager1.DockControls.Add(Me.barDockControlLeft)
@@ -181,15 +183,15 @@
             Me.xrDesignBarManager1.Form = Me
             Me.xrDesignBarManager1.FormattingToolbar = Me.designBar3
             Me.xrDesignBarManager1.HintStaticItem = Me.barStaticItem1
-            Me.xrDesignBarManager1.ImageStream = (DirectCast(resources.GetObject("xrDesignBarManager1.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
-            Me.xrDesignBarManager1.Items.AddRange(New DevExpress.XtraBars.BarItem() { Me.barEditItem1, Me.barEditItem2, Me.commandBarItem1, Me.commandBarItem2, Me.commandBarItem3, Me.commandColorBarItem1, Me.commandColorBarItem2, Me.commandBarItem4, Me.commandBarItem5, Me.commandBarItem6, Me.commandBarItem7, Me.commandBarItem8, Me.commandBarItem9, Me.commandBarItem10, Me.commandBarItem11, Me.commandBarItem12, Me.commandBarItem13, Me.commandBarItem14, Me.commandBarItem15, Me.commandBarItem16, Me.commandBarItem17, Me.commandBarItem18, Me.commandBarItem19, Me.commandBarItem20, Me.commandBarItem21, Me.commandBarItem22, Me.commandBarItem23, Me.commandBarItem24, Me.commandBarItem25, Me.commandBarItem26, Me.commandBarItem27, Me.commandBarItem28, Me.commandBarItem29, Me.commandBarItem30, Me.commandBarItem31, Me.commandBarItem32, Me.commandBarItem33, Me.commandBarItem34, Me.commandBarItem35, Me.commandBarItem36, Me.commandBarItem37, Me.commandBarItem38, Me.barStaticItem1, Me.barSubItem1, Me.barSubItem2, Me.barSubItem3, Me.barReportTabButtonsListItem1, Me.barSubItem4, Me.xrBarToolbarsListItem1, Me.barSubItem5, Me.barDockPanelsListItem1, Me.barSubItem6, Me.barSubItem7, Me.barSubItem8, Me.barSubItem9, Me.barSubItem10, Me.barSubItem11, Me.barSubItem12, Me.barSubItem13, Me.barSubItem14, Me.commandBarItem39, Me.commandBarItem40, Me.commandBarItem41, Me.commandBarItem42, Me.commandBarItem43, Me.commandBarItem44, Me.barSubItem15, Me.commandBarCheckItem1, Me.commandBarItem45, Me.commandBarItem46, Me.commandBarItem47, Me.barMdiChildrenListItem1, Me.commandBarItem48, Me.commandBarItem49, Me.xrZoomBarEditItem1, Me.commandBarItem50})
+            Me.xrDesignBarManager1.ImageStream = CType((resources.GetObject("xrDesignBarManager1.ImageStream")), DevExpress.Utils.ImageCollectionStreamer)
+            Me.xrDesignBarManager1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.barEditItem1, Me.barEditItem2, Me.commandBarItem1, Me.commandBarItem2, Me.commandBarItem3, Me.commandColorBarItem1, Me.commandColorBarItem2, Me.commandBarItem4, Me.commandBarItem5, Me.commandBarItem6, Me.commandBarItem7, Me.commandBarItem8, Me.commandBarItem9, Me.commandBarItem10, Me.commandBarItem11, Me.commandBarItem12, Me.commandBarItem13, Me.commandBarItem14, Me.commandBarItem15, Me.commandBarItem16, Me.commandBarItem17, Me.commandBarItem18, Me.commandBarItem19, Me.commandBarItem20, Me.commandBarItem21, Me.commandBarItem22, Me.commandBarItem23, Me.commandBarItem24, Me.commandBarItem25, Me.commandBarItem26, Me.commandBarItem27, Me.commandBarItem28, Me.commandBarItem29, Me.commandBarItem30, Me.commandBarItem31, Me.commandBarItem32, Me.commandBarItem33, Me.commandBarItem34, Me.commandBarItem35, Me.commandBarItem36, Me.commandBarItem37, Me.commandBarItem38, Me.barStaticItem1, Me.barSubItem1, Me.barSubItem2, Me.barSubItem3, Me.barReportTabButtonsListItem1, Me.barSubItem4, Me.xrBarToolbarsListItem1, Me.barSubItem5, Me.barDockPanelsListItem1, Me.barSubItem6, Me.barSubItem7, Me.barSubItem8, Me.barSubItem9, Me.barSubItem10, Me.barSubItem11, Me.barSubItem12, Me.barSubItem13, Me.barSubItem14, Me.commandBarItem39, Me.commandBarItem40, Me.commandBarItem41, Me.commandBarItem42, Me.commandBarItem43, Me.commandBarItem44, Me.barSubItem15, Me.commandBarCheckItem1, Me.commandBarItem45, Me.commandBarItem46, Me.commandBarItem47, Me.barMdiChildrenListItem1, Me.commandBarItem48, Me.commandBarItem49, Me.xrZoomBarEditItem1, Me.commandBarItem50})
             Me.xrDesignBarManager1.LayoutToolbar = Me.designBar4
             Me.xrDesignBarManager1.MainMenu = Me.designBar1
             Me.xrDesignBarManager1.MaxItemId = 76
             Me.xrDesignBarManager1.StatusBar = Me.designBar5
             Me.xrDesignBarManager1.Toolbar = Me.designBar2
             Me.xrDesignBarManager1.TransparentEditors = True
-            Me.xrDesignBarManager1.Updates.AddRange(New String() { "Toolbox"})
+            Me.xrDesignBarManager1.Updates.AddRange(New String() {"Toolbox"})
             Me.xrDesignBarManager1.ZoomItem = Me.xrZoomBarEditItem1
             ' 
             ' designBar1
@@ -198,13 +200,7 @@
             Me.designBar1.DockCol = 0
             Me.designBar1.DockRow = 0
             Me.designBar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
-            Me.designBar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem2), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem3), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem6), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem15) _
-            })
+            Me.designBar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem3), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem6), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem15)})
             Me.designBar1.OptionsBar.MultiLine = True
             Me.designBar1.OptionsBar.UseWholeRow = True
             Me.designBar1.Text = "Main Menu"
@@ -213,16 +209,7 @@
             ' 
             Me.barSubItem1.Caption = "&File"
             Me.barSubItem1.Id = 43
-            Me.barSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem31), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem39), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem32), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem33, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem40), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem44), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem48), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem41, True) _
-            })
+            Me.barSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem31), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem39), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem32), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem33, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem40), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem44), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem48), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem41, True)})
             Me.barSubItem1.Name = "barSubItem1"
             ' 
             ' commandBarItem31
@@ -239,7 +226,7 @@
             ' 
             Me.commandBarItem39.Caption = "New via &Wizard..."
             Me.commandBarItem39.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.NewReportWizard
-            Me.commandBarItem39.Glyph = (DirectCast(resources.GetObject("commandBarItem39.Glyph"), System.Drawing.Image))
+            Me.commandBarItem39.Glyph = CType((resources.GetObject("commandBarItem39.Glyph")), System.Drawing.Image)
             Me.commandBarItem39.Hint = "Create a new report using the Wizard"
             Me.commandBarItem39.Id = 60
             Me.commandBarItem39.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.W))
@@ -299,7 +286,7 @@
             ' commandBarItem41
             ' 
             Me.commandBarItem41.Caption = "E&xit"
-            Me.commandBarItem41.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Exit
+            Me.commandBarItem41.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.[Exit]
             Me.commandBarItem41.Hint = "Close the designer"
             Me.commandBarItem41.Id = 62
             Me.commandBarItem41.Name = "commandBarItem41"
@@ -308,15 +295,7 @@
             ' 
             Me.barSubItem2.Caption = "&Edit"
             Me.barSubItem2.Id = 44
-            Me.barSubItem2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem37, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem38), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem34, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem35), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem36), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem42), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem43, True) _
-            })
+            Me.barSubItem2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem37, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem38), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem34, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem35), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem36), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem42), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem43, True)})
             Me.barSubItem2.Name = "barSubItem2"
             ' 
             ' commandBarItem37
@@ -397,11 +376,7 @@
             ' 
             Me.barSubItem3.Caption = "&View"
             Me.barSubItem3.Id = 45
-            Me.barSubItem3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barReportTabButtonsListItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem4, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem5, True) _
-            })
+            Me.barSubItem3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.barReportTabButtonsListItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem4, True), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem5, True)})
             Me.barSubItem3.Name = "barSubItem3"
             ' 
             ' barReportTabButtonsListItem1
@@ -414,7 +389,7 @@
             ' 
             Me.barSubItem4.Caption = "&Toolbars"
             Me.barSubItem4.Id = 47
-            Me.barSubItem4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.xrBarToolbarsListItem1)})
+            Me.barSubItem4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.xrBarToolbarsListItem1)})
             Me.barSubItem4.Name = "barSubItem4"
             ' 
             ' xrBarToolbarsListItem1
@@ -427,7 +402,7 @@
             ' 
             Me.barSubItem5.Caption = "&Windows"
             Me.barSubItem5.Id = 49
-            Me.barSubItem5.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.barDockPanelsListItem1)})
+            Me.barSubItem5.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.barDockPanelsListItem1)})
             Me.barSubItem5.Name = "barSubItem5"
             ' 
             ' barDockPanelsListItem1
@@ -443,18 +418,7 @@
             ' 
             Me.barSubItem6.Caption = "Fo&rmat"
             Me.barSubItem6.Id = 51
-            Me.barSubItem6.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandColorBarItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandColorBarItem2), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem7, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem8), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem9, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem10), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem11, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem12), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem13, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem14, True) _
-            })
+            Me.barSubItem6.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandColorBarItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.commandColorBarItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem7, True), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem8), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem9, True), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem10), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem11, True), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem12), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem13, True), New DevExpress.XtraBars.LinkPersistInfo(Me.barSubItem14, True)})
             Me.barSubItem6.Name = "barSubItem6"
             ' 
             ' commandColorBarItem1
@@ -464,7 +428,7 @@
             Me.commandColorBarItem1.CloseSubMenuOnClick = False
             Me.commandColorBarItem1.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.ForeColor
             Me.commandColorBarItem1.Enabled = False
-            Me.commandColorBarItem1.Glyph = (DirectCast(resources.GetObject("commandColorBarItem1.Glyph"), System.Drawing.Image))
+            Me.commandColorBarItem1.Glyph = CType((resources.GetObject("commandColorBarItem1.Glyph")), System.Drawing.Image)
             Me.commandColorBarItem1.Hint = "Set the foreground color of the control"
             Me.commandColorBarItem1.Id = 5
             Me.commandColorBarItem1.Name = "commandColorBarItem1"
@@ -476,7 +440,7 @@
             Me.commandColorBarItem2.CloseSubMenuOnClick = False
             Me.commandColorBarItem2.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.BackColor
             Me.commandColorBarItem2.Enabled = False
-            Me.commandColorBarItem2.Glyph = (DirectCast(resources.GetObject("commandColorBarItem2.Glyph"), System.Drawing.Image))
+            Me.commandColorBarItem2.Glyph = CType((resources.GetObject("commandColorBarItem2.Glyph")), System.Drawing.Image)
             Me.commandColorBarItem2.Hint = "Set the background color of the control"
             Me.commandColorBarItem2.Id = 6
             Me.commandColorBarItem2.Name = "commandColorBarItem2"
@@ -485,11 +449,7 @@
             ' 
             Me.barSubItem7.Caption = "&Font"
             Me.barSubItem7.Id = 52
-            Me.barSubItem7.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem1, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem2), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem3) _
-            })
+            Me.barSubItem7.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem1, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem3)})
             Me.barSubItem7.Name = "barSubItem7"
             ' 
             ' commandBarItem1
@@ -529,12 +489,7 @@
             ' 
             Me.barSubItem8.Caption = "&Justify"
             Me.barSubItem8.Id = 53
-            Me.barSubItem8.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem4, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem5), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem6), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem7) _
-            })
+            Me.barSubItem8.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem4, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem5), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem6), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem7)})
             Me.barSubItem8.Name = "barSubItem8"
             ' 
             ' commandBarItem4
@@ -581,15 +536,7 @@
             ' 
             Me.barSubItem9.Caption = "&Align"
             Me.barSubItem9.Id = 54
-            Me.barSubItem9.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem9, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem10), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem11), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem12, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem13), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem14), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem8, True) _
-            })
+            Me.barSubItem9.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem9, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem10), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem11), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem12, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem13), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem14), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem8, True)})
             Me.barSubItem9.Name = "barSubItem9"
             ' 
             ' commandBarItem9
@@ -666,12 +613,7 @@
             ' 
             Me.barSubItem10.Caption = "&Make Same Size"
             Me.barSubItem10.Id = 55
-            Me.barSubItem10.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem15, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem16), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem17), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem18) _
-            })
+            Me.barSubItem10.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem15, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem16), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem17), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem18)})
             Me.barSubItem10.Name = "barSubItem10"
             ' 
             ' commandBarItem15
@@ -718,12 +660,7 @@
             ' 
             Me.barSubItem11.Caption = "&Horizontal Spacing"
             Me.barSubItem11.Id = 56
-            Me.barSubItem11.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem19, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem20), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem21), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem22) _
-            })
+            Me.barSubItem11.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem19, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem20), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem21), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem22)})
             Me.barSubItem11.Name = "barSubItem11"
             ' 
             ' commandBarItem19
@@ -770,12 +707,7 @@
             ' 
             Me.barSubItem12.Caption = "&Vertical Spacing"
             Me.barSubItem12.Id = 57
-            Me.barSubItem12.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem23, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem24), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem25), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem26) _
-            })
+            Me.barSubItem12.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem23, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem24), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem25), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem26)})
             Me.barSubItem12.Name = "barSubItem12"
             ' 
             ' commandBarItem23
@@ -822,10 +754,7 @@
             ' 
             Me.barSubItem13.Caption = "&Center in Form"
             Me.barSubItem13.Id = 58
-            Me.barSubItem13.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem27, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem28) _
-            })
+            Me.barSubItem13.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem27, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem28)})
             Me.barSubItem13.Name = "barSubItem13"
             ' 
             ' commandBarItem27
@@ -852,10 +781,7 @@
             ' 
             Me.barSubItem14.Caption = "&Order"
             Me.barSubItem14.Id = 59
-            Me.barSubItem14.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem29, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem30) _
-            })
+            Me.barSubItem14.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem29, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem30)})
             Me.barSubItem14.Name = "barSubItem14"
             ' 
             ' commandBarItem29
@@ -882,13 +808,7 @@
             ' 
             Me.barSubItem15.Caption = "&Window"
             Me.barSubItem15.Id = 66
-            Me.barSubItem15.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarCheckItem1, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem45), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem46), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem47), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barMdiChildrenListItem1, True) _
-            })
+            Me.barSubItem15.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarCheckItem1, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem45), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem46), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem47), New DevExpress.XtraBars.LinkPersistInfo(Me.barMdiChildrenListItem1, True)})
             Me.barSubItem15.Name = "barSubItem15"
             ' 
             ' commandBarCheckItem1
@@ -943,17 +863,7 @@
             Me.designBar2.DockCol = 0
             Me.designBar2.DockRow = 1
             Me.designBar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
-            Me.designBar2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem31), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem32), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem33), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem44), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem34, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem35), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem36), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem37, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem38) _
-            })
+            Me.designBar2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem31), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem32), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem33), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem44), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem34, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem35), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem36), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem37, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem38)})
             Me.designBar2.Text = "Toolbar"
             ' 
             ' designBar3
@@ -962,19 +872,7 @@
             Me.designBar3.DockCol = 1
             Me.designBar3.DockRow = 1
             Me.designBar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
-            Me.designBar3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barEditItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.barEditItem2), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem2), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem3), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandColorBarItem1, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandColorBarItem2), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem4, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem5), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem6), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem7) _
-            })
+            Me.designBar3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.barEditItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.barEditItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem3), New DevExpress.XtraBars.LinkPersistInfo(Me.commandColorBarItem1, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandColorBarItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem4, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem5), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem6), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem7)})
             Me.designBar3.Text = "Formatting Toolbar"
             ' 
             ' barEditItem1
@@ -983,7 +881,7 @@
             recentlyUsedItemsComboBox1.AppearanceDropDown.Font = New System.Drawing.Font("Tahoma", 11.25F)
             recentlyUsedItemsComboBox1.AppearanceDropDown.Options.UseFont = True
             recentlyUsedItemsComboBox1.AutoHeight = False
-            recentlyUsedItemsComboBox1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            recentlyUsedItemsComboBox1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             recentlyUsedItemsComboBox1.DropDownRows = 12
             recentlyUsedItemsComboBox1.Name = "recentlyUsedItemsComboBox1"
             Me.barEditItem1.Edit = recentlyUsedItemsComboBox1
@@ -996,7 +894,7 @@
             ' 
             Me.barEditItem2.Caption = "Font Size"
             designRepositoryItemComboBox1.AutoHeight = False
-            designRepositoryItemComboBox1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            designRepositoryItemComboBox1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             designRepositoryItemComboBox1.Name = "designRepositoryItemComboBox1"
             Me.barEditItem2.Edit = designRepositoryItemComboBox1
             Me.barEditItem2.Hint = "Font Size"
@@ -1010,31 +908,7 @@
             Me.designBar4.DockCol = 0
             Me.designBar4.DockRow = 2
             Me.designBar4.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
-            Me.designBar4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem8), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem9, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem10), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem11), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem12, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem13), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem14), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem15, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem16), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem17), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem18), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem19, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem20), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem21), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem22), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem23, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem24), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem25), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem26), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem27, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem28), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem29, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem30) _
-            })
+            Me.designBar4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem8), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem9, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem10), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem11), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem12, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem13), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem14), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem15, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem16), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem17), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem18), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem19, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem20), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem21), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem22), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem23, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem24), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem25), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem26), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem27, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem28), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem29, True), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem30)})
             Me.designBar4.Text = "Layout Toolbar"
             ' 
             ' designBar5
@@ -1044,7 +918,7 @@
             Me.designBar5.DockCol = 0
             Me.designBar5.DockRow = 0
             Me.designBar5.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom
-            Me.designBar5.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.barStaticItem1)})
+            Me.designBar5.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.barStaticItem1)})
             Me.designBar5.OptionsBar.AllowQuickCustomization = False
             Me.designBar5.OptionsBar.DrawDragBorder = False
             Me.designBar5.OptionsBar.UseWholeRow = True
@@ -1065,11 +939,7 @@
             Me.bar1.DockCol = 1
             Me.bar1.DockRow = 2
             Me.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
-            Me.bar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem49), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.xrZoomBarEditItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem50) _
-            })
+            Me.bar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem49), New DevExpress.XtraBars.LinkPersistInfo(Me.xrZoomBarEditItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.commandBarItem50)})
             Me.bar1.Text = "Zoom Toolbar"
             ' 
             ' commandBarItem49
@@ -1087,7 +957,7 @@
             ' 
             Me.xrZoomBarEditItem1.Caption = "Zoom"
             designRepositoryItemComboBox2.AutoComplete = False
-            designRepositoryItemComboBox2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            designRepositoryItemComboBox2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             designRepositoryItemComboBox2.Name = "designRepositoryItemComboBox2"
             Me.xrZoomBarEditItem1.Edit = designRepositoryItemComboBox2
             Me.xrZoomBarEditItem1.Enabled = False
@@ -1138,10 +1008,10 @@
             ' xrDesignDockManager1
             ' 
             Me.xrDesignDockManager1.Form = Me
-            Me.xrDesignDockManager1.ImageStream = (DirectCast(resources.GetObject("xrDesignDockManager1.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
+            Me.xrDesignDockManager1.ImageStream = CType((resources.GetObject("xrDesignDockManager1.ImageStream")), DevExpress.Utils.ImageCollectionStreamer)
             Me.xrDesignDockManager1.MenuManager = Me.xrDesignBarManager1
-            Me.xrDesignDockManager1.RootPanels.AddRange(New DevExpress.XtraBars.Docking.DockPanel() { Me.panelContainer1, Me.panelContainer3})
-            Me.xrDesignDockManager1.TopZIndexControls.AddRange(New String() { "DevExpress.XtraBars.BarDockControl", "DevExpress.XtraBars.StandaloneBarDockControl", "System.Windows.Forms.StatusBar", "System.Windows.Forms.MenuStrip", "System.Windows.Forms.StatusStrip", "DevExpress.XtraBars.Ribbon.RibbonStatusBar", "DevExpress.XtraBars.Ribbon.RibbonControl", "DevExpress.XtraBars.Navigation.OfficeNavigationBar"})
+            Me.xrDesignDockManager1.RootPanels.AddRange(New DevExpress.XtraBars.Docking.DockPanel() {Me.panelContainer1, Me.panelContainer3})
+            Me.xrDesignDockManager1.TopZIndexControls.AddRange(New String() {"DevExpress.XtraBars.BarDockControl", "DevExpress.XtraBars.StandaloneBarDockControl", "System.Windows.Forms.StatusBar", "System.Windows.Forms.MenuStrip", "System.Windows.Forms.StatusStrip", "DevExpress.XtraBars.Ribbon.RibbonStatusBar", "DevExpress.XtraBars.Ribbon.RibbonControl", "DevExpress.XtraBars.Navigation.OfficeNavigationBar"})
             ' 
             ' panelContainer1
             ' 
@@ -1294,7 +1164,7 @@
             xrDesignPanelListener5.DesignControl = Me.reportExplorerDockPanel1
             xrDesignPanelListener6.DesignControl = Me.groupAndSortDockPanel1
             xrDesignPanelListener7.DesignControl = Me.errorListDockPanel1
-            Me.reportDesignerMDIController.DesignPanelListeners.AddRange(New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener() { xrDesignPanelListener1, xrDesignPanelListener2, xrDesignPanelListener3, xrDesignPanelListener4, xrDesignPanelListener5, xrDesignPanelListener6, xrDesignPanelListener7})
+            Me.reportDesignerMDIController.DesignPanelListeners.AddRange(New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener() {xrDesignPanelListener1, xrDesignPanelListener2, xrDesignPanelListener3, xrDesignPanelListener4, xrDesignPanelListener5, xrDesignPanelListener6, xrDesignPanelListener7})
             Me.reportDesignerMDIController.Form = Me
             ' 
             ' fmDesigner
@@ -1310,11 +1180,12 @@
             Me.Controls.Add(Me.barDockControlTop)
             Me.Name = "fmDesigner"
             Me.Text = "XtraReport Designer"
-            DirectCast(Me.xrDesignBarManager1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(recentlyUsedItemsComboBox1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(designRepositoryItemComboBox1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(designRepositoryItemComboBox2, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.xrDesignDockManager1, System.ComponentModel.ISupportInitialize).EndInit()
+            AddHandler Me.Load, New System.EventHandler(AddressOf Me.fmDesigner_Load)
+            CType((Me.xrDesignBarManager1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((recentlyUsedItemsComboBox1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((designRepositoryItemComboBox1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((designRepositoryItemComboBox2), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.xrDesignDockManager1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.panelContainer1.ResumeLayout(False)
             Me.panelContainer2.ResumeLayout(False)
             Me.reportExplorerDockPanel1.ResumeLayout(False)
@@ -1324,114 +1195,213 @@
             Me.groupAndSortDockPanel1.ResumeLayout(False)
             Me.errorListDockPanel1.ResumeLayout(False)
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+'#End Region
         Private reportDesignerMDIController As DevExpress.XtraReports.UserDesigner.XRDesignMdiController
+
         Private xrDesignBarManager1 As DevExpress.XtraReports.UserDesigner.XRDesignBarManager
+
         Private bar2 As DevExpress.XtraBars.Bar
+
         Private designBar1 As DevExpress.XtraReports.UserDesigner.DesignBar
+
         Private barSubItem1 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem31 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem39 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem32 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem33 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem40 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem44 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem48 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem41 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem2 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem37 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem38 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem34 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem35 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem36 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem42 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem43 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem3 As DevExpress.XtraBars.BarSubItem
+
         Private barReportTabButtonsListItem1 As DevExpress.XtraReports.UserDesigner.BarReportTabButtonsListItem
+
         Private barSubItem4 As DevExpress.XtraBars.BarSubItem
+
         Private xrBarToolbarsListItem1 As DevExpress.XtraReports.UserDesigner.XRBarToolbarsListItem
+
         Private barSubItem5 As DevExpress.XtraBars.BarSubItem
+
         Private barDockPanelsListItem1 As DevExpress.XtraReports.UserDesigner.BarDockPanelsListItem
+
         Private barSubItem6 As DevExpress.XtraBars.BarSubItem
+
         Private commandColorBarItem1 As DevExpress.XtraReports.UserDesigner.CommandColorBarItem
+
         Private commandColorBarItem2 As DevExpress.XtraReports.UserDesigner.CommandColorBarItem
+
         Private barSubItem7 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem1 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem2 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem3 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem8 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem4 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem5 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem6 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem7 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem9 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem9 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem10 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem11 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem12 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem13 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem14 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem8 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem10 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem15 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem16 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem17 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem18 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem11 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem19 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem20 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem21 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem22 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem12 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem23 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem24 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem25 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem26 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem13 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem27 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem28 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem14 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarItem29 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem30 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barSubItem15 As DevExpress.XtraBars.BarSubItem
+
         Private commandBarCheckItem1 As DevExpress.XtraReports.UserDesigner.CommandBarCheckItem
+
         Private commandBarItem45 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem46 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private commandBarItem47 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barMdiChildrenListItem1 As DevExpress.XtraBars.BarMdiChildrenListItem
+
         Private designBar2 As DevExpress.XtraReports.UserDesigner.DesignBar
+
         Private designBar3 As DevExpress.XtraReports.UserDesigner.DesignBar
+
         Private barEditItem1 As DevExpress.XtraBars.BarEditItem
+
         Private barEditItem2 As DevExpress.XtraBars.BarEditItem
+
         Private designBar4 As DevExpress.XtraReports.UserDesigner.DesignBar
+
         Private designBar5 As DevExpress.XtraReports.UserDesigner.DesignBar
+
         Private barStaticItem1 As DevExpress.XtraBars.BarStaticItem
+
         Private bar1 As DevExpress.XtraBars.Bar
+
         Private commandBarItem49 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private xrZoomBarEditItem1 As DevExpress.XtraReports.UserDesigner.XRZoomBarEditItem
+
         Private commandBarItem50 As DevExpress.XtraReports.UserDesigner.CommandBarItem
+
         Private barDockControlTop As DevExpress.XtraBars.BarDockControl
+
         Private barDockControlBottom As DevExpress.XtraBars.BarDockControl
+
         Private barDockControlLeft As DevExpress.XtraBars.BarDockControl
+
         Private barDockControlRight As DevExpress.XtraBars.BarDockControl
+
         Private xrDesignDockManager1 As DevExpress.XtraReports.UserDesigner.XRDesignDockManager
+
         Private panelContainer3 As DevExpress.XtraBars.Docking.DockPanel
+
         Private groupAndSortDockPanel1 As DevExpress.XtraReports.UserDesigner.GroupAndSortDockPanel
+
         Private groupAndSortDockPanel1_Container As DevExpress.XtraReports.UserDesigner.DesignControlContainer
+
         Private errorListDockPanel1 As DevExpress.XtraReports.UserDesigner.ErrorListDockPanel
+
         Private errorListDockPanel1_Container As DevExpress.XtraReports.UserDesigner.DesignControlContainer
+
         Private panelContainer1 As DevExpress.XtraBars.Docking.DockPanel
+
         Private panelContainer2 As DevExpress.XtraBars.Docking.DockPanel
+
         Private reportExplorerDockPanel1 As DevExpress.XtraReports.UserDesigner.ReportExplorerDockPanel
+
         Private reportExplorerDockPanel1_Container As DevExpress.XtraReports.UserDesigner.DesignControlContainer
+
         Private fieldListDockPanel1 As DevExpress.XtraReports.UserDesigner.FieldListDockPanel
+
         Private fieldListDockPanel1_Container As DevExpress.XtraReports.UserDesigner.DesignControlContainer
+
         Private propertyGridDockPanel1 As DevExpress.XtraReports.UserDesigner.PropertyGridDockPanel
+
         Private propertyGridDockPanel1_Container As DevExpress.XtraReports.UserDesigner.DesignControlContainer
     End Class
 End Namespace
-
