@@ -23,4 +23,4 @@ The `CustomSqlDataConnection` class (the [SqlDataConnection](https://docs.devexp
 - [Data Sources in Web End-User Report Designer (ASP.NET Core)](https://docs.devexpress.com/XtraReports/401896/web-reporting/asp-net-core-reporting/end-user-report-designer-in-asp-net-applications/use-data-sources-and-connections)
 ## More Examples
 
-- [https://github.com/DevExpress-Examples/ReportingEUDSaveReportWithoutConnectionParams](https://github.com/DevExpress-Examples/ReportingEUDSaveReportWithoutConnectionParams)
+- [WinForms Report Designer - How to Save Only Connection Name with Reports and Exclude Connection Parameters](https://github.com/DevExpress-Examples/ReportingEUDSaveReportWithoutConnectionParams)
